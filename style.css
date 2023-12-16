@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "home about service partner customer project career contact";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px;
+    background-color: #F3F3F3;
+    color: #BABABA;
+    align-items: center;
+    justify-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+    gap: 5px;
+}
+
+.home{
+    grid-area: home;
+}
+.about{
+    grid-area: about;
+}
+.service{
+    grid-area: service;
+}
+.partner{
+    grid-area: partner;
+}
+.customer{
+    grid-area: customer;
+}
+.project{
+    grid-area: project;
+}
+.career{
+    grid-area: career;
+}
+.contact{
+    grid-area: contact;
+}
+
+.fusce{
+    margin-bottom: 35px;
+}
+.fusce-top{
+    width: 1130px;
+    height: 150px;
+    padding: 35px;
+    background-color: #E2E2E2;
+}
+
+.fusce-top-title{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #5B5B5B;
+    margin-bottom: 6px;
+}
+
+.fusce-top-text{
+    color: #BCBCBC;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.fusce-bottom{
+    width: 100%;
+    border: #BCBCBC solid 1px;
+    background-color: #F3F3F3;
+    border-top: none ;
+    display: grid;
+    grid-template-areas:"fusce-bottom-text1 fusce-bottom-text2 fusce-bottom-text3 fusce-bottom-text4";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    justify-items: center;
+    align-items: center;
+    color: #BABABA;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.fusce-bottom-text1{
+    grid-area: fusce-bottom-text1;
+}
+.fusce-bottom-text2{
+    grid-area: fusce-bottom-text2;
+}
+.fusce-bottom-text3{
+    grid-area: fusce-bottom-text3;
+}
+.fusce-bottom-text4{
+    grid-area: fusce-bottom-text4;
+}
+
+.info1{
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 500px 500px;
+    gap: 35px;
+    grid-template-areas: "info-about info-words";
+}
+
+
+.info-about{
+    grid-area: info-about;
+}
+.info-words{
+    grid-area: info-words;
+}
+.block-big{
+    width: 100px;
+    height: 100px;
+    background-color: #5B5B5B;
+}
+
+
+.clients-title{
+    color: #7E7E7E;
+    font-size: 1.3rem;
+}
+
+.clients-grid{
+    display: grid;
+    grid-template-areas: "partners-logo1 partners-logo2 partners-logo3 partners-logo4 partners-logo5 partners-logo6";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0fr;
+    gap: 10px ;
+    grid-template-rows: 210px;
+    align-items: center;
+    padding: 0px 60px;
+  }
+  
+  .clients-logo1{
+    grid-area: partners-logo1;
+  }
+  .clients-logo2{
+    grid-area: partners-logo2;
+  }
+  .clients-logo3{
+    grid-area: partners-logo3;
+  }
+  .clients-logo4{
+    grid-area: partners-logo4;
+  }
+  .clients-logo5{
+    grid-area: partners-logo5;
+  }
+  .clients-logo6{
+    grid-area: partners-logo6;
+  }
+
+.footer{
+    background-color: #7E7E7E;
+    width: 100%;
+    height: 110px;
+    color: #F3F3F3;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-areas: "twitter sitemap networks";
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+.twitter{
+    grid-area: twitter;
+}
+
+.sitemap{
+    grid-area: sitemap;
+}
+
+.networks{
+    grid-area: networks;
+}
+
+.footer-title{
+    margin: 8px 0;
+}
+
+.footer-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-networks-ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-li{
+    display: inline-block;
+    margin-right: 10px;
+}
